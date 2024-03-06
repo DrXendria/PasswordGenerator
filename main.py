@@ -4,11 +4,11 @@ import time
 print("Welcome to the password generator which gives you strong but ridiculous passwords!")
 
 
-time.sleep(5)
+time.sleep(2)
 
 print("Password is coming!")
 
-time.sleep(5)
+time.sleep(2)
 
 def generate_password(length =12):
     characters = string.ascii_letters + string.digits + string.punctuation
